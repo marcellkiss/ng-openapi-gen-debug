@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/ng-openapi-gen/ng-openapi-gen-schema.json",
+  "input": "openapi.json",
+  "output": "output",
+  "includeTags": [],
+  "excludeTags": [
+    "basic-error-controller",
+    "operation-handler",
+    "web-mvc-links-handler"
+  ]
+}
