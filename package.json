@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf output/ && ng-openapi-gen"
+    "start": "rm -rf output/ && ng-openapi-gen",
+    "openapi-generator": "openapi-generator-cli generate -i openapi.yaml -g typescript-angular -o /output-openapi-generator"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ng-openapi-gen": "^0.20.0"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.4.26"
   }
 }
